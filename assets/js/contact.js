@@ -30,28 +30,28 @@ $(document).ready(function(){
                 },
                 message: {
                     required: true,
-                    minlength: 20
+                    minlength: 10
                 }
             },
             messages: {
                 name: {
-                    required: "come on, you have a name, don't you?",
-                    minlength: "your name must consist of at least 2 characters"
+                    required: "El nombre es requerido en este campo",
+                    minlength: "El campo mensaje tiene que tener al menos 2 caracteres"
                 },
                 subject: {
-                    required: "come on, you have a subject, don't you?",
-                    minlength: "your subject must consist of at least 4 characters"
+                    required: "El asunto es requerido en este campo",
+                    minlength: "El campo mensaje tiene que tener al menos 4 caracteres"
                 },
                 number: {
                     required: "come on, you have a number, don't you?",
                     minlength: "your Number must consist of at least 5 characters"
                 },
                 email: {
-                    required: "no email, no message"
+                    required: "El email es requerido en este campo"
                 },
                 message: {
-                    required: "um...yea, you have to write something to send this form.",
-                    minlength: "thats all? really?"
+                    required: "Este campo es requerido",
+                    minlength: "El campo mensaje tiene que tener al menos 10 caracteres"
                 }
             },
             submitHandler: function(form) {
