@@ -2136,7 +2136,7 @@ hr {
   .header-area .header-bottom {
     padding: 0px 15px; } }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1010px) {
   .header-area .header-bottom {
     padding: 22px 50px; } }
 
@@ -2188,7 +2188,7 @@ hr {
   position: relative;
   z-index: 3; }
 
-@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+@media only screen and (min-width: auto) and (max-width: 1600px) {
   .main-header .main-menu {
     margin-right: 30px; } }
 
