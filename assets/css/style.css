@@ -2699,7 +2699,8 @@ hr {
     padding: 46px 23px; } }
 
 .our-services .single-services:hover {
-  box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1); }
+  /*box-shadow: 0px 10px 30px 0px rgba(133, 66, 189, 0.1);*/
+}
 
 .our-services .single-services .services-ion span {
   font-size: 60px;
@@ -2729,10 +2730,12 @@ hr {
   line-height: 1.4; }
 
 .our-services .single-services:hover {
-  border: 1px solid #04dbec; }
+  /*border: 1px solid #04dbec;*/
+}
 
 .our-services .single-services:hover .services-ion span {
-  color: #04dbec; }
+  /*color: #04dbec;*/
+}
 
 .section-tittle h2 {
   color: #28395a;
@@ -2851,13 +2854,22 @@ hr {
     margin-bottom: 42px; } }
 
 .visit-tailor-area .tailor-offers {
-  background-image: url(../img/gallery/visit_bg.jpg);
+  background-image: url(../img/work/work.jpg);
   background-size: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   height: 700px;
   width: 50%; }
+
+.visit-tailor-area .zones {
+  background-image: url(../img/zone/map.png);
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 350px;
+  width: 60%; }
 
 @media (max-width: 575px) {
   .visit-tailor-area .tailor-offers {
