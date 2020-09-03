@@ -2869,7 +2869,15 @@ hr {
   background-repeat: no-repeat;
   background-position: center center;
   height: 350px;
-  width: 60%; }
+  width: 60%;
+
+}
+
+@media (max-width: 988px)  {
+  .visit-tailor-area .zones{
+    width: 0px;
+  }
+}
 
 @media (max-width: 575px) {
   .visit-tailor-area .tailor-offers {

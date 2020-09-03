@@ -2775,14 +2775,17 @@ hr {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .visit-tailor-area {
+    padding-left: 60px;
     display: block; } }
 
 @media (max-width: 575px) {
   .visit-tailor-area {
+    padding-left: 60px;
     display: block; } }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .visit-tailor-area {
+    padding-left: 60px;
     display: block; } }
 
 .visit-tailor-area .tailor-details {
@@ -2866,6 +2869,10 @@ hr {
   background-position: center center;
   height: 350px;
   width: 60%; }
+
+@media (max-width: 976px) {
+  .visit-tailor-area .zones {
+    width: 0px; } }
 
 @media (max-width: 575px) {
   .visit-tailor-area .tailor-offers {
