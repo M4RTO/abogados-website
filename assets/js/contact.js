@@ -67,6 +67,7 @@ $(document).ready(function(){
                             $('#success').fadeIn()
                             $('.modal').modal('hide');
 		                	$('#success').modal('show');
+                            $("#contactForm")[0].reset();
                         })
                     },
                     error: function() {

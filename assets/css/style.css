@@ -2775,17 +2775,14 @@ hr {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .visit-tailor-area {
-    padding-left: 60px;
     display: block; } }
 
 @media (max-width: 575px) {
   .visit-tailor-area {
-    padding-left: 60px;
-    display: block; } }
+    display: flex; } }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .visit-tailor-area {
-    padding-left: 60px;
     display: block; } }
 
 .visit-tailor-area .tailor-details {
@@ -2870,7 +2867,7 @@ hr {
   height: 350px;
   width: 60%; }
 
-@media (max-width: 976px) {
+@media (max-width: 988px) {
   .visit-tailor-area .zones {
     width: 0px; } }
 
@@ -5856,5 +5853,9 @@ del {
 
 .pear2 {
   text-align: justify; }
+
+@media (max-width: 767px) {
+  .pt-100 {
+    padding-top: 0px; } }
 
 /*# sourceMappingURL=style.css.map */

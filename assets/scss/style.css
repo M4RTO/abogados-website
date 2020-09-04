@@ -2783,7 +2783,7 @@ hr {
 
 @media (max-width: 575px) {
   .visit-tailor-area {
-    display: block; } }
+    display: flex; } }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .visit-tailor-area {
@@ -5864,6 +5864,11 @@ del {
 }
 .pear2 {
   text-align: justify;
+}
+
+@media (max-width: 767px) {
+  .pt-100 {
+    padding-top: 0px; }
 }
 
 /*# sourceMappingURL=style.css.map */
