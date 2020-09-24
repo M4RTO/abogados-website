@@ -522,6 +522,22 @@ hr {
   border: 2px solid transparent;
   box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2); }
 
+/* scrollUp  index*/
+#scrollUp, #back-top-index {
+  background: #ffffff;
+  height: 50px;
+  width: 50px;
+  right: 31px;
+  bottom: 18px;
+  position: fixed;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 48px;
+  border: 2px solid transparent;
+  box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2); }
+
 @media (max-width: 575px) {
   #scrollUp, #back-top {
     right: 16px; } }
@@ -2438,7 +2454,7 @@ hr {
   display: block; }
 
 .slider-area .single-slider .slider-cap-wrapper .hero__caption .hero-btn svg {
-  fill: #04dbec;
+  fill: #fafafa;
   height: 43px;
   padding-left: 20px; }
 
@@ -2456,7 +2472,7 @@ hr {
   color: #fff;
   font-size: 50px;
   font-weight: 900;
-  text-transform: capitalize; }
+  text-transform: none; }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .hero-area .hero-cap h2 {
@@ -5857,5 +5873,13 @@ del {
 @media (max-width: 767px) {
   .pt-100 {
     padding-top: 0px; } }
+
+.contact-area ul li a {
+  color: #8a8a8a;
+  font-weight: 300; }
+
+.contact-area ul li a:hover {
+  color: #000000;
+  padding-left: 5px; }
 
 /*# sourceMappingURL=style.css.map */
